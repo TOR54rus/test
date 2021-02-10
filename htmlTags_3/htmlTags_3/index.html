@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Знакомство html_3(ФОРМЫ) tegs</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- tabindex ВЕЗДЕ!!!!!! ПО ПОРЯДКУ!!! ПЕРЕХОД ПРИ НАЖАТИИ TAB!!!! -->
+	<body>
+		<!-- Все Пишеться в Котейнере(теге) <form></form>   -->
+		<!-- method="post" Скрытая отправка и возможость оправки файла.  -->
+<form action="#" method="post" enctype="multipart/form-data">
+	<div>
+		<p>Имя</p>
+		<!-- Текстовое поле Смотри Имя name (placeholder Инфа на заднем фоне) -->
+		<input placeholder="Имя" tabindex="1" type="text" name="username" value="">
+	</div>
+	<div>
+		<p>Пароль</p>
+		<!-- Текстовое поле Пароль смотри Имя name -->
+		<input tabindex="2" type="password" name="userpass" value="">
+	</div>
+	<div>
+		<p>Телефон</p>
+		<!-- Тоже текстовое поле ТОлько под ввод Цыфрами с телефона Например -->
+		<input type="tel" name="userphone" tabindex="3">
+	</div>
+	<div>
+		<p>Пол</p>
+		<div>
+			<!-- Радио кнопки Кругляши )) checked(Зафиксировать на ней выбор)  name Одинаковое а значит и tabindex Одинаков!!! -->
+			<input tabindex="4" checked="" type="radio" name="gender" value="male"> Мужской
+		</div>
+		<div>
+			<input tabindex="4" type="radio" name="gender" value="female"> Женский
+		</div>
+	</div>
+	<div>
+		<p>Иущество</p>
+	</div>
+	<div>
+		<!-- Чек БОКС!!! в Отдельных ДИВАХ и disabled(Отключает Нахер все где стоит) -->
+		<input tabindex="5" checked="" type="checkbox" name="bike" value="yes"> Велик
+	</div>
+	<div>
+		<input tabindex="6" type="checkbox" name="car" value="yes"> Машина
+	</div>
+	<div>
+		<input tabindex="7" disabled="" type="checkbox" name="House" value="yes"> Дом
+	</div>
+	<div>
+		<!-- Просто текст в окне -->
+		<p>Дополнительная информация</p>
+		<textarea tabindex="8" name="text" ></textarea>
+	</div>
+	<div>
+		<!-- Отправка файла -->
+		<p>Прекреить фото</p>
+		<input tabindex="9" type="file">
+	</div>
+	<div>
+		<!-- select Меню option Что будет там лежать selected Фиксирует значение  -->
+		<p>Любимый цвет</p>
+		<select tabindex="10" name="color">
+			<option value="red">Красный</option>
+			<option value="green">Зеленый</option>
+			<option selected="" value="yellow">Желтый</option>
+		</select>
+	</div>
+	<div>
+		<!-- Кнопки Отправить и сброс -->
+		<p>Действие</p>
+		<button tabindex="11" type="submit">Отправить</button>
+		<button tabindex="12" type="reset">Очистить</button>
+	</div>
+</form>
+	</body>
+
+</html>

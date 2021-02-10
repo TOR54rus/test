@@ -1,0 +1,162 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+.body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.red {
+	color: red;
+}
+
+.texttop {
+	margin-top: -7px;
+	line-height: 25px;
+}
+
+.one {
+	width: 611px;
+	height: 64px;
+	margin: 53px 619px 33px 50px;
+}
+
+.two {
+	display: block;
+	margin: 33px 957px 0px 49px;
+}
+
+.three {
+	display: block;
+	margin: 0px 779px 32px 48px;
+}
+
+.four {
+	width: 1145px;
+	height: 86px;
+	margin: 32px 84px 34px 51px;
+}
+
+.texttop_1 {
+	color: red;
+	display: block;
+	padding-top: 23px;
+	height: 35px;
+}
+
+.five {
+	width: 241px;
+	height: 14px;
+
+	display: inline;
+	margin: 34px 41px 35px 51px;
+}
+
+.six {
+	width: 221px;
+	height: 14px;
+
+	display: inline;
+	margin: 34px 726px 35px 0px;
+}
+
+.seven {
+	display: inline-block;
+	width: 503px;
+	height: 14px;
+	margin: 35px 42px 37px 50px;
+	border: 1px solid black;
+}
+
+.sevenText {
+	padding: 0px 45px;
+}
+
+.eight {
+	margin: 0px 0px 205px 0px;
+}
+
+.nine {
+	display: block;
+	width: 343px;
+	height: 111px;
+	margin: 0px 887px 0px 50px;
+}
+
+.nineText {
+	display: block;
+	padding: 33px 0px;
+}
